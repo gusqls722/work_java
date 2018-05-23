@@ -20,7 +20,7 @@ public class VarEx4 {
 		int i = 'A';		// OK. 문자 'A'의 유니코드 인 65가 변수 i에 저장된다.
 		long l = 123;		// OK. int보다 long타입이 더 범위가 넓다.
 		double d = 3.14f;	// OK. float보다 double 타입이 더 범위가 넓다.
-		long i1 = 0x123456789l;	// 에러. int 타입의 범위를 넘는 값을 저장했다.
+		//int i1 = 0x123456789;	// 에러. int 타입의 범위를 넘는 값을 저장했다.
 		//float f = 3.14; 		// 에러. float 타입보다 double 타입의 범위가 넓다.
 		byte b = 65;		// OK. byte타입에 저장 가능한 범위의 int 타입 리터럴
 		short s = 0x1234;	// OK. short 타입에 저장 가능한 범위의 int 타입 리터럴
