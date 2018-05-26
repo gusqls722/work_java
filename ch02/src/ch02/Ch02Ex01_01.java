@@ -2,6 +2,7 @@ package ch02;
 
 public class Ch02Ex01_01 {
 	public static void main(String[] args) {
-		System.out.println("Programming! It's fun");
+		// 특수문자(Escape Sequence) - 작은 따옴표(')
+		System.out.println("Programming! It\'s fun");
 	}
 }
