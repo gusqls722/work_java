@@ -23,11 +23,11 @@ public class OperatorEx24 {
 		
 		// 변수 ch가 문자 'a'이상 문자 'z' 이하인지 확인
 		ch = 'a';
-		System.out.printf("ch='%c', 'a' <= ch && ch <='z' =%b%n", ch, '0' <= ch && ch <= 'z');
+		System.out.printf("ch='%c', 'a' <= ch && ch <='z' =%b%n", ch, 'a' <= ch && ch <= 'z');
 		
 		// 변수 ch가 문자 'A'이상 문자 'Z' 이하인지 확인
 		ch = 'A';
-		System.out.printf("ch='%c', 'A' <= ch && ch <='Z' =%b%n", ch, '0' <= ch && ch <= 'Z');
+		System.out.printf("ch='%c', 'A' <= ch && ch <='Z' =%b%n", ch, 'A' <= ch && ch <= 'Z');
 		
 		// 변수 ch가 문자 'q'이거나 'Q'이면 true
 		ch = 'q';
