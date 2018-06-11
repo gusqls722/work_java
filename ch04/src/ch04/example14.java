@@ -2,10 +2,12 @@ package ch04;
 
 public class example14 {
 	public static void main(String[] args) {
+		// 1~100사이의 임의의 값을 얻어서 answer에 저장한다.
 		int answer = (int)(Math.random()*100)+1;
-		int input = 0;
-		int count = 0;
+		int input = 0;		//사용자입력을 저장할 공간
+		int count = 0;		// 시도횟수를 세기위한 변수
 			
+		// 화면으로부터 사용자입력을 받기 위해서 Scanner클래스 사용
 		java.util.Scanner s = new java.util.Scanner(System.in);
 			
 		do {
@@ -21,6 +23,6 @@ public class example14 {
 			}else if(answer<input) {
 				System.out.println("더 작은 수를 입력하세요.");
 			}
-		}while(true);
+		}while(true);	//무한 반복문
 	}
 }
