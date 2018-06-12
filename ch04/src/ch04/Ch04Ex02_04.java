@@ -11,6 +11,11 @@ public class Ch04Ex02_04 {
 			if(num>100) {
 				break;
 			}
+			if(num==100) {
+				sum+=num;
+				ave++;
+				break;
+			}
 			sum+=num;
 			ave++;
 		}while(true);
