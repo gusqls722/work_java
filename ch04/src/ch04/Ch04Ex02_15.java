@@ -8,7 +8,7 @@ public class Ch04Ex02_15 {
 		
 		int num = scanner.nextInt();
 		
-		for(int i=1;i<=num;i++) {
+		/*for(int i=1;i<=num;i++) {
 			for(int j=1;j<=i;j++) {
 				System.out.print("*");
 				if(num==j) {
@@ -22,6 +22,26 @@ public class Ch04Ex02_15 {
 				}
 			}
 			System.out.println();
+		}*/
+		
+		// [방법2]
+		int i = 1;
+		boolean isDesc = false;
+		while(i != 0) {
+			for(int j = 0; j < i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			
+			if(i==num) {
+				isDesc = true;
+			}
+			if (!isDesc) {
+				i++;
+			}
+			else {
+				i--;
+			}
 		}
 	}
 }
