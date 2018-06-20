@@ -9,8 +9,8 @@ public class Ch05Ex01_04 {
 		int[] arr =new int[100];
 		int i=0;
 		for(i=0;i<arr.length;i++) {
-			int input = scanner.nextInt();
-			arr[i] = input;
+			String num = scanner.nextLine();
+			arr[i] = Integer.parseInt(num);
 			if(arr[i]==0) 
 				break;
 		}
