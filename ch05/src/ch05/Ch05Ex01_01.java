@@ -16,16 +16,16 @@ public class Ch05Ex01_01 {
 			System.out.printf("%s",input[i]);
 		}
 		
-		String a = "KOITT";
+		// 연습한 거
+		
+	/*	String a = "KOITT";
 		String b = "APPLE";
 		String c = "CAR";
-		
- 
 		
 		char[] result = {a.charAt(0),a.charAt(1),c.charAt(2),b.charAt(4),b.charAt(0)};
 		
 		for(int i=0; i<result.length;i++) {
 			System.out.print(result[i]);
-		}
+		}*/
 	}
 }
