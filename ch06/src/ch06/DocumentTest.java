@@ -3,7 +3,7 @@ class Document{
 	static int count = 0;
 	String name;			// 문서명(Document name)
 	
-	Document() {
+	Document() {		// 문서 생성 시 문서명을 지정하지 않았을 때
 		this("제목없음" + ++count);
 	}
 	
